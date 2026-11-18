@@ -1,0 +1,202 @@
+[
+ {
+  "bundle": "dinosaurs",
+  "title": "Triceratops",
+  "id": "IGvrUqGrRM",
+  "licence": "CC0 1.0",
+  "file": "dinosaurs\\Triceratops.glb",
+  "bytes": 309684
+ },
+ {
+  "bundle": "dinosaurs",
+  "title": "Parasaurolophus",
+  "id": "KeeQrrouRK",
+  "licence": "CC0 1.0",
+  "file": "dinosaurs\\Parasaurolophus.glb",
+  "bytes": 291016
+ },
+ {
+  "bundle": "dinosaurs",
+  "title": "T-Rex",
+  "id": "UYtneO5FpF",
+  "licence": "CC0 1.0",
+  "file": "dinosaurs\\T-Rex.glb",
+  "bytes": 336568
+ },
+ {
+  "bundle": "dinosaurs",
+  "title": "Velociraptor",
+  "id": "cnlGH2UcDd",
+  "licence": "CC0 1.0",
+  "file": "dinosaurs\\Velociraptor.glb",
+  "bytes": 285828
+ },
+ {
+  "bundle": "dinosaurs",
+  "title": "Stegosaurus",
+  "id": "eFcNbOlpvl",
+  "licence": "CC0 1.0",
+  "file": "dinosaurs\\Stegosaurus.glb",
+  "bytes": 423036
+ },
+ {
+  "bundle": "dinosaurs",
+  "title": "Apatosaurus",
+  "id": "fvo0x8Zk3z",
+  "licence": "CC0 1.0",
+  "file": "dinosaurs\\Apatosaurus.glb",
+  "bytes": 380776
+ },
+ {
+  "bundle": "animals",
+  "title": "Cow",
+  "id": "26zM1outCr",
+  "licence": "CC0 1.0",
+  "file": "animals\\Cow.glb",
+  "bytes": 1028584
+ },
+ {
+  "bundle": "animals",
+  "title": "Fox",
+  "id": "Bc97C66HKi",
+  "licence": "CC0 1.0",
+  "file": "animals\\Fox.glb",
+  "bytes": 960228
+ },
+ {
+  "bundle": "animals",
+  "title": "Wolf",
+  "id": "P1gU3Qkr9r",
+  "licence": "CC0 1.0",
+  "file": "animals\\Wolf.glb",
+  "bytes": 986712
+ },
+ {
+  "bundle": "animals",
+  "title": "Deer",
+  "id": "T6Cs7tmMHJ",
+  "licence": "CC0 1.0",
+  "file": "animals\\Deer.glb",
+  "bytes": 1007564
+ },
+ {
+  "bundle": "animals",
+  "title": "Bull",
+  "id": "a8PIIYwF7r",
+  "licence": "CC0 1.0",
+  "file": "animals\\Bull.glb",
+  "bytes": 1038360
+ },
+ {
+  "bundle": "animals",
+  "title": "Alpaca",
+  "id": "bCVFD48i2l",
+  "licence": "CC0 1.0",
+  "file": "animals\\Alpaca.glb",
+  "bytes": 1053804
+ },
+ {
+  "bundle": "animals",
+  "title": "White Horse",
+  "id": "bEdE4rmZy9",
+  "licence": "CC0 1.0",
+  "file": "animals\\White_Horse.glb",
+  "bytes": 1109444
+ },
+ {
+  "bundle": "animals",
+  "title": "Donkey",
+  "id": "qmX6nhnvp7",
+  "licence": "CC0 1.0",
+  "file": "animals\\Donkey.glb",
+  "bytes": 1093824
+ },
+ {
+  "bundle": "animals",
+  "title": "Horse",
+  "id": "qvTrSG9pZF",
+  "licence": "CC0 1.0",
+  "file": "animals\\Horse.glb",
+  "bytes": 1108124
+ },
+ {
+  "bundle": "animals",
+  "title": "Stag",
+  "id": "tQdzbZ1Cmw",
+  "licence": "CC0 1.0",
+  "file": "animals\\Stag.glb",
+  "bytes": 1044172
+ },
+ {
+  "bundle": "animals",
+  "title": "Husky",
+  "id": "wcWiuEqwzq",
+  "licence": "CC0 1.0",
+  "file": "animals\\Husky.glb",
+  "bytes": 927536
+ },
+ {
+  "bundle": "animals",
+  "title": "Shiba Inu",
+  "id": "y4wdQpg767",
+  "licence": "CC0 1.0",
+  "file": "animals\\Shiba_Inu.glb",
+  "bytes": 851196
+ },
+ {
+  "bundle": "farm",
+  "title": "Pug",
+  "id": "1gXKv15ik8",
+  "licence": "CC0 1.0",
+  "file": "farm\\Pug.glb",
+  "bytes": 147380
+ },
+ {
+  "bundle": "farm",
+  "title": "Cow",
+  "id": "5XSc2Fka3F",
+  "licence": "CC0 1.0",
+  "file": "farm\\Cow.glb",
+  "bytes": 331280
+ },
+ {
+  "bundle": "farm",
+  "title": "Sheep",
+  "id": "C39AUXUUes",
+  "licence": "CC0 1.0",
+  "file": "farm\\Sheep.glb",
+  "bytes": 156948
+ },
+ {
+  "bundle": "farm",
+  "title": "Horse",
+  "id": "F8HAAcLeBL",
+  "licence": "CC0 1.0",
+  "file": "farm\\Horse.glb",
+  "bytes": 294524
+ },
+ {
+  "bundle": "farm",
+  "title": "Llama",
+  "id": "JxVJ9rfWGy",
+  "licence": "CC0 1.0",
+  "file": "farm\\Llama.glb",
+  "bytes": 164708
+ },
+ {
+  "bundle": "farm",
+  "title": "Pig",
+  "id": "TNvG3QUFlp",
+  "licence": "CC0 1.0",
+  "file": "farm\\Pig.glb",
+  "bytes": 159724
+ },
+ {
+  "bundle": "farm",
+  "title": "Zebra",
+  "id": "iclPBR6SBZ",
+  "licence": "CC0 1.0",
+  "file": "farm\\Zebra.glb",
+  "bytes": 384288
+ }
+]

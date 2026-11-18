@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sky
+  m_Shader: {fileID: 4800000, guid: c6f8e254105a97f44a4d44c5c8253043, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Photo:
+        m_Texture: {fileID: 2800000, guid: ca4a62a538899144698de2f8a3a63b19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Photo2:
+        m_Texture: {fileID: 2800000, guid: f5fc708ddff2c5a42a06842f093aa9b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _HorizonPow: 0.45
+    - _Moon: 0
+    - _PhotoAmount: 0
+    - _PhotoFloor: 0.5
+    - _PhotoMix: 1
+    - _PhotoSat: 1
+    - _PhotoYaw: 1.9433298
+    - _PhotoYaw2: 1.9433298
+    - _Stars: 0
+    - _SunSize: 0.9993
+    m_Colors:
+    - _Below: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Horizon: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _PhotoTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SunColor: {r: 0.62, g: 0.6, b: 0.56, a: 1}
+    - _Top: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,27 @@
+{
+    "name": "Worldeck.PlayTests",
+    "rootNamespace": "Worldeck.PlayTests",
+    "references": [
+        "Worldeck.Core",
+        "Worldeck.Runtime",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "meta.xr.mrutilitykit",
+        "Oculus.VR",
+        "Oculus.Interaction",
+        "Meta.XR.Audio"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

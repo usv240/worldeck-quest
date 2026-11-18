@@ -1,0 +1,13 @@
+{
+  "name": "worldeck-proxy",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker that turns a spoken place into a recipe from Worldeck's fixed kit.",
+  "scripts": {
+    "test": "node --test",
+    "prompt": "node scripts/write-prompt-md.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

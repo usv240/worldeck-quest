@@ -1,0 +1,55 @@
+# Worldeck proxy: Cloudflare Worker config. No secrets in this file, ever.
+#
+# Secrets are set once with wrangler and stored encrypted by Cloudflare:
+#   wrangler secret put ANTHROPIC_API_KEY   # Claude API key (server-side only, never in the app)
+#   wrangler secret put APP_KEY             # the shared secret the app sends as X-App-Key
+# For `wrangler dev`, put the same two in a .dev.vars file (gitignored) instead.
+# (Speech is recognised on the headset: there is no speech endpoint and no Wit.ai token any more.)
+
+name = "worldeck-proxy"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+preview_urls = false
+
+# ---------------------------------------------------------------------------
+# Optional: KV cache shared by all isolates (the in-memory LRU works without it).
+# Keys are SHA-256 hashes of the normalised request; values are validated recipes.
+#   1. wrangler kv namespace create RECIPES
+#   2. paste the id it prints below, uncomment the three lines, wrangler deploy
+# Free plan: 100,000 reads and 1,000 writes per day; a failed write is ignored.
+#
+# [[kv_namespaces]]
+# binding = "RECIPES"
+# id = "<id from step 1>"
+
+# ---------------------------------------------------------------------------
+# Cloudflare Rate Limiting bindings, on top of the worker's own in-memory windows (12 per device and 300
+# overall per minute, but those are per isolate). These are shared by all isolates in a location.
+# namespace_id is any integer, unique within your account. A binding error never blocks a request.
+
+[[ratelimits]]
+name = "DEVICE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 12, period = 60 }
+
+[[ratelimits]]
+name = "GLOBAL_LIMITER"
+namespace_id = "1002"
+simple = { limit = 300, period = 60 }
+
+# ---------------------------------------------------------------------------
+# Workers Logs: the one line per request (endpoint, status, times, request id, tokens, reason codes; never
+# the player's words, the key or a device id) is kept a few days and can be searched in the dashboard.
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+# ---------------------------------------------------------------------------
+# Optional tuning (plain vars, not secrets). Defaults: 9000 ms for /v1/recipe, 12000 ms for /v1/act.
+# AI_OFF = "1" is the kill switch: no model calls at all (seeds still answer; the app falls back offline).
+# [vars]
+# MODEL_TIMEOUT_MS = "9000"
+# ACT_TIMEOUT_MS = "12000"
+# AI_OFF = "1"
